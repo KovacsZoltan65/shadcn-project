@@ -1,0 +1,37 @@
+https://www.youtube.com/watch?v=XSHM3q62jqU&t=612s
+https://www.youtube.com/watch?v=yFwl4hO4lgM
+https://www.youtube.com/watch?v=l8QzEWMWGoo
+
+design:
+    https://ui.shadcn.com/
+    https://www.shadcn-vue.com/
+icons:
+    https://lucide.dev/
+
+1.  composer create-project laravel/laravel admin-app
+2.  composer require inertiajs/inertia-laravel
+3.  php artisan inertia:middleware
+4.  npm install @inertiajs/vue3
+5.  npm install @vitejs/plugin-vue
+6.  php artisan make:controller HomeController --resource
+7.  npm install -D tailwindcss@latest postcss@latest autoprefixer@latest
+8.  npx tailwindcss init -p
+9.  npm install lucide-vue-next
+    npm install @tanstack/vue-table
+10. npx shadcn-vue@latest init
+11. npx shadcn-vue@latest add button
+    npx shadcn-vue@latest add badge
+    npx shadcn-vue@latest add card
+    npx shadcn-vue@latest add dropdown-menu
+    npx shadcn-vue@latest add sheet
+    npx shadcn-vue@latest add input
+    npx shadcn-vue@latest add label
+    npx shadcn-vue@latest add table
+    npx shadcn-vue@latest add checkbox
+
+12. php artisan make:controller DashboardController --resource
+    php artisan make:controller HomeController --resource
+    php artisan make:controller AuthController --resource
+    php artisan make:model Product -m -c
+    php artisan make:seeder ProductSeeder
+    php artisan make:factory ProductFactory --model=Product
